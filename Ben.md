@@ -2,22 +2,29 @@
 marp: true
 theme: uncover
 style: |
-    :root{
-     --color-background: lightgrey;
-     font-family: Garamond
+    {
+     --color-background: orange;
+     font-family: Garamond;
+     color: white;
     }
     section.split {
-    overflow: visible;
     display: grid;
     grid-template-columns: 500px 500px;
     grid-template-rows: 100px auto;
     grid-template-areas: 
         "slideheading slideheading"
-        "leftpanel rightpanel";
     }
     section.split h3 {
         grid-area: slideheading;
         font-size: 70px;
+    }
+    section.odd {
+        --color-background:white;
+        color: orange;
+    }
+    section.even {
+        --color-background: orange;
+        color: white;
     }
 ---
 
@@ -38,5 +45,12 @@ B.S. Information Technology - ASU
 - Opportunity for self improvment
 - Prevent stagnation
 
+---
+<!-- _class: odd -->
+# this is an odd slide
 
 ---
+
+<!-- _class: even -->
+# this is an even slide
+
