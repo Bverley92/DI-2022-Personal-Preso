@@ -62,14 +62,15 @@ style: |
         --color-background: orange;
         color: white;
     }
+
 ---
 
 <!--_class: odd -->
 # Ben Verley 
 ### DevOps Engineer
 B.S. Information Technology - ASU
-Start date: Jan 2 2022
-![bg vertical right](Photos/Ben.jpg)
+Start date: Jan 3 2022
+![bg right](Photos/Ben.jpg)
 
 ---
 <!-- _class: split -->
