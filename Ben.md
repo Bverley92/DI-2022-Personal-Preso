@@ -95,15 +95,18 @@ Start date: Jan 3 2022
 
 </div>
 
-<!--- I am driven   --->
+<!--- 
+In terms of coding or other work, I always aks myself is there a better way to accomplish this? This mindset of constant improvement is what drives quality and efficient work.
+
+In temrs of challenges, I relish them. They consistantly provide avenues for self improvement and prevent stagnation. To put it another way I'm the guy that plays strategy games on the hardest difficulty available.
+ --->
 ---
 <!-- _class: odd -->
 # What I do and bring
 - DevOps Team
-- Ask myself "Is there a better way" as I work
 - Constantly thinking about solutions to things even while not working on them
-<!---I work on a team that develops or improves tools designed to increase operational efficiency
-I have worked on a couple of projects that aim to make health reporting more uniform across customers. But what I have really brought and will continue to bring is a desire to constantly do better. As I’m writing code, I ask myself “Is this a good way to accomplish the task at hand?” Many times, the answer has been “No” And I either switch gears or take the time to think about a better way to do it.--->
+<!---I work on a team that develops or improves tools designed to increase operational efficiency for the rest of the team.
+When I am given a project or a problem, I will keep proccessing that problem until a workable solution is in place. That proccess runs in the back of my mind pretty much all the time regardless of what I am doing. --->
 
 ---
 
@@ -115,8 +118,8 @@ I have worked on a couple of projects that aim to make health reporting more uni
 # Professional Accomplishments
 - Graduation (finally) last year
 - Starting here at Computacenter
-<!---leaving my last job was a huge personal investment. It meant giving up a steady paycheck only to search for something better. It was a terrifying leap out of something financially comfortable. Without doing so, I never would have had the time or the drive to find something better for myself. I feel like if I had not left, I might still be there. 
-Starting here. I get to work with an incredibly supportive team, working on solving problems and challenges.--->
+<!---leaving my last job was a huge personal investment. It meant giving up a steady paycheck only to search for something better. It was a leap out of something financially comfortable but physically and mentally debilitating. Without doing so, I never would have had the time or the drive to find something better for myself. I feel like if I had not left, I might still be there. 
+As for professional accomplishments, obviously I graduated cum laude last year, which led to starting here. I get to work with an incredibly supportive team, working on solving problems and challenges that operation faces and I coulnd't be more excited about that.--->
 
 ---
 <!-- _class: odd -->
@@ -128,7 +131,7 @@ Starting here. I get to work with an incredibly supportive team, working on solv
 - Continued Growth
 - Avoid Stagnation
 
-<!---In the short term there are a few courses that I want to take around Kubernetes and Machine learning. In the longer term, I haven’t nailed anything down yet, but I hope to have my sights set on new longer-term objectives soon so that I can constantly be invested in growing and improving my skills--->.
+<!---In the short term there are a few courses that I want to take around Kubernetes and Machine learning. In the longer term, I hope to be constantly be invested in growing and improving my skills and avoiding stagnation--->.
 
 ---
 
@@ -174,7 +177,7 @@ return $Response
 - Mixing Python and PowerShell with some success early on in the Refactor Project
 - Ultimately I found myself needing to do things that PS was ill suited for
 
-<!---I have run into a number of challenges while working at refactoring the daily health report scripts. At first, I had written it to run already written PowerShell scripts that I had adjusted to output a filetype that would work with the email api we wrote. I had planned to write similar code for each type of script I could come across, but after asking myself is this really the best way to do this, I quickly realized I could iterate over the type of scripts I had to run and only write it once. My current challenge is around cleaning text outputs from the machines into usable data. While I wrote something that works for the outputs I have, I know that I likely missed some output potential that what I wrote wont work for. I am hoping that existing apis that the machines have will help by giving data that isn’t text from a console output. --->
+<!---Early on in the refactor project, I designed a python script that ran powershell scripts that already existed with slight modifications to meet the parameters of the email api. While this was functional, there were things that were a bit clunky to keep doing in powershell, and that python can just do better.. --->
 
 
 ---
@@ -197,4 +200,4 @@ class Product:
         for key, value in dictionary.items():
             setattr(self, key, value)
 ```
-<!--- I'll end this on a quite story about an assignment I had a couple of years ago. The assignment was to create a class that had 30 parameters. The above script shows how we were taught to create a class, go parameter by parameter take them in at input, define them an so on. For thirty parameters that was going to be excessive. Instead I devised a way to take a dictionary and initialize a class out of it. In order to do this I had to spend far more time and investment figuring out how dictionaries work in then it would have taken me to write out each parameter and be done with it. I think that is a good representation of me. I will go to much farther lengths to accomplish a task efficiently, rather than by brute force. --->
+<!--- I'll end this on a quick story about an assignment I had a couple of years ago in school. The assignment was to create a class that had 30 parameters. The above script shows how we were taught to create a class, go parameter by parameter take them in at input, define them an so on. For thirty parameters that was going to be excessive. Instead I devised a way to take a dictionary and initialize a class from it. I had to spend far more time and investment figuring out how dictionaries could be applied in this manner then it would have taken me to write out each parameter and be done with it. I think that is a good representation of me. I prefer to figure out solutions that are effecient, rather than by brute force. --->
